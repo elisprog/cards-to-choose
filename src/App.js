@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "../src/components/Card.jsx"
+import style from "./components/Card.module.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className={style.globalView}>
+    <Card 
+    colorHeader={style.blueHeader}
+    colorBody={style.blueBody}
+    price="300"
+    extra="10"/>
+    <Card 
+    colorHeader={style.greenHeader}
+    colorBody={style.greenBody}
+    price="450"
+    extra="50"/>  
+    <Card 
+    special={style.special}
+    colorHeader={style.redHeader}
+    colorBody={style.redBody}
+    price="550"
+    extra="100"/>  
+    <Card 
+    colorHeader={style.greyHeader}
+    colorBody={style.greyBody}
+    price="1000"
+    extra="200"/>
+  </div>
   );
 }
 

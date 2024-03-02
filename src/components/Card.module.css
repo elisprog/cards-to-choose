@@ -1,0 +1,77 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.1em;
+    font-size: 1.1em;
+}
+
+.globalView {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    }
+
+.special {
+    display: flex;
+    font-size: 1.2em;
+}
+
+header, section {
+    color: rgb(255, 255, 255);
+}
+
+.extra, .footer {
+    color:rgb(63, 63, 63);
+}
+
+.extra {
+    background-color: rgb(230, 230, 230);
+}
+
+.footer {
+    background-color: rgb(201, 201, 201);
+}
+
+.blueHeader {
+    background-color: rgb(25, 76, 230);
+}
+
+.blueBody {
+    background-color: rgb(89, 124, 229);
+}
+
+.greenHeader {
+    background-color: green;
+}
+
+.greenBody {
+    background-color: rgb(97, 125, 97);
+}
+
+.redHeader {
+    background-color: orangered;
+    font-size: 1.5em;
+}
+
+.redBody {
+    background-color: rgb(250, 138, 97);
+    font-size: 1.5em;
+}
+
+.greyHeader {
+    background-color: rgb(137, 122, 143);
+}
+
+.greyBody {
+    background-color: rgb(142, 142, 142);
+}
+
+.blueHeader, .greenHeader, .redHeader, .greyHeader {
+    padding: 20px;
+}
+
+.blueBody, .greenBody, .redBody, .greyBody {
+    padding: 40px;
+}
