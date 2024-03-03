@@ -15,7 +15,7 @@ div {
 
 .special {
     display: flex;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 header, section {
@@ -52,12 +52,10 @@ header, section {
 
 .redHeader {
     background-color: orangered;
-    font-size: 1.5em;
 }
 
 .redBody {
     background-color: rgb(250, 138, 97);
-    font-size: 1.5em;
 }
 
 .greyHeader {
@@ -74,4 +72,9 @@ header, section {
 
 .blueBody, .greenBody, .redBody, .greyBody {
     padding: 40px;
+}
+
+.check {
+    min-height: 50px;
+    min-width: 30px;
 }
